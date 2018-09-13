@@ -55,7 +55,7 @@ class Home extends Component {
                 <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet"></link>
                 <Parallax
                     blur={1}
-                    bgImage={require('C:/Users/Kelby/Desktop/SpookyProject/spooky-utah/src/images/dark_forest2.png')}
+                    bgImage={require('../images/Dark-Forest.png')}
                     bgImageAlt="Dark-Forest.png"
                     strength={200}
                     bgHeight={'100%'}
