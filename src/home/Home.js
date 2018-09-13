@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import './home.css';
 import FadeIn from 'react-fade-in';
 import { Parallax } from 'react-parallax';
+import Forest from '../images/Dark-Forest.png';
 
 
 class Home extends Component {
@@ -55,7 +56,7 @@ class Home extends Component {
                 <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet"></link>
                 <Parallax
                     blur={1}
-                    bgImage={require('../images/Dark-Forest.png')}
+                    bgImage={Forest}
                     bgImageAlt="Dark-Forest.png"
                     strength={200}
                     bgHeight={'100%'}
