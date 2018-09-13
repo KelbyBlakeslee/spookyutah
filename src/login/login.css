@@ -1,0 +1,10 @@
+.welcome-title {
+    font-family: 'Cinzel Decorative', cursive;
+    color: white;
+}
+
+.title-login-div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 300px;
+}

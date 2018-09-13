@@ -1,0 +1,64 @@
+.comments {
+    color: white;
+}
+
+.location-style {
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+}
+
+.background-location {
+    height: 100vh;
+    width: 100%;
+}
+
+.shadow {
+    -moz-box-shadow:    3px 3px 5px 5px rgb(134, 128, 128);
+  -webkit-box-shadow: 3px 3px 5px 5px rgb(134, 128, 128);
+  box-shadow:         3px 3px 5px 5px rgb(134, 128, 128);
+  height: 500px;
+  width: 700px;
+}
+
+.locations-details {
+    text-align: left;
+    padding: 25px;
+    background: rgba(0, 0, 0, 0.247);
+}
+
+.locations-details * {
+    margin-bottom: 50px;
+}
+
+.comments-div {
+    height: 150px;
+    overflow-y: scroll;
+    background: rgba(255, 255, 255, 0.1);
+    width: 50%;
+    margin-left: 25%;
+}
+
+.input-div {
+    padding: 10px;
+}
+
+.comment-input {
+    margin-top: 100px;
+    height: 20px;
+    width: 400px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 500;
+    outline: none;
+}
+
+.whole-location-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("../images/dark_forest2.png")
+}
+
+.button-div {
+    padding: 15px;
+}

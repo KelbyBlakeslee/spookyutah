@@ -1,0 +1,36 @@
+.background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.logged-user {
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.input-box {
+    height: 20px;
+    width: 200px;
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: 500;
+    outline: none;
+}
+
+.credentials-div {
+    padding-top: 50px;
+}
+
+.credentials-button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background: #680202;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    outline: none;
+}

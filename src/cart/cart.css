@@ -1,0 +1,62 @@
+.store-titles {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.background {
+    height: 110%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.all-text{
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    width: 50%;
+}
+
+.single-product {
+    padding: 10px;
+}
+
+.product-images {
+    height: 100px;
+    width: 100px;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    align-self: flex-start;
+    width: 50%;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.product-button {
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background: #680202;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    outline: none;
+}
+
+.products-and-cart {
+    display: flex;
+}

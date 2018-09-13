@@ -1,0 +1,22 @@
+.div-around-locations {
+    color: white;
+    width: 1500px;
+    margin: 0 auto;
+    background: rgba(0, 0, 0, 0.247);
+}
+
+.location-link {
+    text-decoration: none;
+    color: white;
+    margin-left: 700px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.name-address {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.location-description {
+    color: #f02222; 
+    font-family: 'Cinzel Decorative', cursive;
+}
