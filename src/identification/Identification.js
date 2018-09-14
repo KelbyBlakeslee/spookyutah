@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
-import DarkForest from '../images/Dark_Forest.png';
+import DarkForest from '../images/dark_forest2.png';
 import './identification.css';
 import FadeIn from 'react-fade-in';
 

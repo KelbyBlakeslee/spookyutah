@@ -4,7 +4,7 @@ import { connect } from 'react-redux';
 import { updateCart } from '../redux/reducer';
 import './cart.css';
 import StripeCheckout from '../checkout/StripeCheckout';
-import DarkForest from '../images/Dark_Forest.png';
+import DarkForest from '../images/dark_forest2.png';
 
 
 class Cart extends Component {
