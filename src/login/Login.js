@@ -23,7 +23,7 @@ class Login extends Component {
                 <div className="title-login-div">
                     <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet"></link>
                     <h1 className="welcome-title">Please Login Adventurer</h1>
-                    <a className="login_link" href={process.env.REACT_APP_LOGIN}>Login/Register</a>
+                    <a className="login-link" href={process.env.REACT_APP_LOGIN}>Login/Register</a>
                 </div>
             </div>
         )

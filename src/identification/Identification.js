@@ -43,7 +43,7 @@ class Identification extends Component {
             .then(response => {
                 console.log(response)
                 this.setState({ user: response.data })
-                this.props.history.push('/')
+                this.props.history.push('/home')
             })
     }
 

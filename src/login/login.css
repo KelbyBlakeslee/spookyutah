@@ -8,3 +8,12 @@
     flex-direction: column;
     margin-top: 300px;
 }
+
+.login-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    background: #680202;
+    width: 135px;
+    margin-left: 693px;
+}

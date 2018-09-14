@@ -4,12 +4,11 @@
     justify-content: center;
     background: #680202;
     color: white;
-    font-family: 'Cinzel Decorative', cursive;
-    width: 100%;
+    font-family: 'Cinzel Decorative', cursive;;
 }
 
 .site-title {
-    margin-right: 900px;
+    margin-right: 600px;
 }
 
 .nav-buttons {
