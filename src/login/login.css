@@ -6,7 +6,7 @@
 .title-login-div {
     display: flex;
     flex-direction: column;
-    margin-top: 300px;
+    margin-top: 100px;
 }
 
 .login-link {
@@ -15,6 +15,7 @@
     font-family: 'Cinzel Decorative', cursive;
     width: 135px;
     margin-left: 693px;
+    font-weight: 700;
 }
 
 .login-link:hover {
@@ -22,7 +23,7 @@
 }
 
 .title {
-    color: white;
+    color: #9c0606;
     font-family: 'Cinzel Decorative', cursive;
     font-size: 75px;
 }
