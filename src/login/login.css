@@ -13,7 +13,18 @@
     text-decoration: none;
     color: white;
     font-family: 'Cinzel Decorative', cursive;
-    background: #680202;
     width: 135px;
     margin-left: 693px;
 }
+
+.login-link:hover {
+    color: #680202;
+}
+
+.title {
+    color: white;
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 75px;
+}
+
+
