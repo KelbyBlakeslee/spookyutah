@@ -68,15 +68,15 @@ class Identification extends Component {
                 <img className="background" src={DarkForest} alt="Dark-Forest.png" />
                 <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet"></link>
                 <FadeIn>
-                    <div>
+                    <div className="id-full">
                         <h1 className="logged-user">{loggedUser}</h1>
-                    </div>
-                    <h3 className="logged-user">First Name:</h3>
-                    <input className="input-box" value={this.state.first_name_input} placeholder="Change First Name here" onChange={(e) => this.handleFirstName(e)} />
-                    <h3 className="logged-user">Last Name</h3>
-                    <input className="input-box" value={this.state.last_name_input} placeholder="Change Last Name here" onChange={(e) => this.handleLastName(e)} />
-                    <div className="credentials-div">
-                        <button className="credentials-button" onClick={() => this.updateUser()}>Change Credentials</button>
+                        <h3 className="logged-user">First Name:</h3>
+                        <input className="input-box" value={this.state.first_name_input} placeholder="Change First Name here" onChange={(e) => this.handleFirstName(e)} />
+                        <h3 className="logged-user">Last Name</h3>
+                        <input className="input-box" value={this.state.last_name_input} placeholder="Change Last Name here" onChange={(e) => this.handleLastName(e)} />
+                        <div className="credentials-div">
+                            <button className="credentials-button" onClick={() => this.updateUser()}>Change Credentials</button>
+                        </div>
                     </div>
                 </FadeIn>
             </div>

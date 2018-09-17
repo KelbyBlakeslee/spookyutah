@@ -7,6 +7,9 @@
     display: flex;
     flex-direction: column;
     margin-top: 100px;
+    background: rgba(0, 0, 0, 0.247);
+    width: 50%;
+    margin-left: 25%;
 }
 
 .login-link {
@@ -14,7 +17,7 @@
     color: white;
     font-family: 'Cinzel Decorative', cursive;
     width: 135px;
-    margin-left: 693px;
+    margin-left: 315px;
     font-weight: 700;
 }
 
